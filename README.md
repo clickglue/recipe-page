@@ -40,18 +40,18 @@ Users should be able to:
 - [x] Create Git repo and connect to VSC repo
 - [x] Add reset.css file
 - [x] Create styles.css file
-- [x] HTML
+- [ ] HTML
   - [x] Header
     - [x] Link fonts
     - [x] Link reset.css
     - [x] Link styles.css
-  - [x] Body
-    - [x] Create anchors (main, header, footer)
-    - [x] Structure content with ```<article>``` and ```<section>```
-    - [x] Put content in sections
-    - [x] Put VAR's in styles.css
-    - [x] CSS sections
-    - [x] CSS content
+  - [ ] Body
+    - [ ] Create anchors (main, header, footer)
+    - [ ] Structure content with ```<article>``` and ```<section>```
+    - [ ] Put content in sections
+    - [ ] Put VAR's in styles.css
+    - [ ] CSS sections
+    - [ ] CSS content
 
 ### Built with
 

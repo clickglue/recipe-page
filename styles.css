@@ -1,0 +1,104 @@
+:root {
+  /*colors*/
+  --White: hsl(0, 0%, 100%);
+  --Stone-100: hsl(30, 54%, 90%);
+  --Stone-150: hsl(30, 18%, 87%);
+  --Stone-600: hsl(30, 10%, 34%);
+  --Stone-900: hsl(24, 5%, 18%);
+  --Brown-800: hsl(14, 45%, 36%);
+  --Rose-800: hsl(332, 51%, 32%);
+  --Rose-50: hsl(330, 100%, 98%);
+
+  /*font-weights*/
+  --Light: 400;
+  --Medium: 600;
+  --Heavy: 700;
+}
+
+/*mobile first*/
+body {
+  font-family: "Outfit";
+  font-size: 17px;
+  text-align: left;
+}
+ul {
+  margin: 1rem;
+  padding: 0;
+  list-style-type: disc;
+  list-style-position: outside;
+}
+ol {
+  margin: 1rem;
+  padding: 0;
+}
+li {
+  padding: 0.2rem;
+}
+table {
+  width: 100%;
+  padding: 2rem;
+}
+
+td {
+  border-bottom: 1px solid;
+  border-color: var(--Rose-50);
+  text-align: left;
+}
+
+hr {
+  border: 1px solid var(--Rose-50);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.article-recipe {
+  background-color: var(--White);
+}
+
+.introduction-bullets {
+  background-color: var(--Rose-50);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+h1 {
+  font-family: "Young Serif";
+  font-size: xx-large;
+  font-weight: var(--Heavy);
+}
+h2 {
+  font-family: "Young Serif";
+}
+h3 {
+  font-size: large;
+}
+
+.section-main-image {
+}
+
+.section-main-text {
+  padding: 2rem;
+  font-size: smaller;
+  min-width: 320px;
+  max-width: 400px;
+}
+
+/*desktop design*/
+
+@media only screen and (min-width: 400px) {
+  body {
+    background-color: var(--Stone-100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .article-recipe {
+    border-radius: 1rem;
+    max-width: 400px;
+    padding: 1rem;
+  }
+  .introduction-image {
+    border-radius: 1rem;
+  }
+}
